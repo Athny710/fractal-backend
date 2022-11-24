@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Fractial
+  datasource:
+    username: fractial
+    password: Fractial123(.
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/fractial_db?ServerTimeZone=America/Lima"
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 3000
